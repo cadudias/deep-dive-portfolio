@@ -1,0 +1,62 @@
+/*
+    HEADER
+*/
+
+.header .container {
+    padding: 20px 15px;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .logo a {
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fb839e;
+    font-size: 2.4rem;
+    color: #fb839e;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+.header .menu {
+    position: relative;
+    text-align: center;
+}
+
+.header .menu li {
+    display: inline-block;
+    padding: 10px 6px;
+}
+
+.header .menu li a {
+    color: #d0d0d0;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/* HOME SECTION */
+
+.home-section {
+    position: relative;
+    background-color: red;
+}
+
+.home-section:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.home-section .full-screen {
+    padding: 50px 0;
+}
+
+.home-section .home-text {
+    max-width: 450px;
+    float: left;
+}
